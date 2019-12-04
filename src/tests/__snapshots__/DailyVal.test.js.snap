@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render DailyVal with rows filled with the date, max temp and avg humidity 1`] = `
+Array [
+  <tr
+    key="11/12/2018"
+/>,
+  <tr
+    key="13/12/2018"
+/>,
+  <tr
+    key="14/12/2018"
+/>,
+]
+`;
