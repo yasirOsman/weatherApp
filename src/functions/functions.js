@@ -1,3 +1,4 @@
+//gets the maximum temperature from the provided data of given date
 const getMaxTemp = (data,date) => {
     let max_Temp = Number.MIN_SAFE_INTEGER;
     for(let i = 0; i < data.length; i++){
@@ -11,7 +12,8 @@ const getMaxTemp = (data,date) => {
     }
     return (max_Temp -273.15).toFixed(2);
 }
-  
+
+//gets the next 5 unique dates
 const getDate = (data) => {
    let dates = [];
        for (let i = 0; i < data.length - 1; i++) {
@@ -26,7 +28,8 @@ const getDate = (data) => {
        }
    return dates;
 }
-  
+
+//gets the average humidity of the given date
 const getAverageHumidity =(data,date) => {
     let average = 0;
     let cnt = 0;
