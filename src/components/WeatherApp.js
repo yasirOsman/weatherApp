@@ -22,7 +22,6 @@ class Weatherapp extends Component {
       const size = this.state.list;
       
       this.setState({length: getDate(size).length, theList: getDate(size) });
-      console.log(this.state.theList); 
     })
     .catch(error => console.log('parsing failed', error))
      
